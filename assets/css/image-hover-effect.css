@@ -10,14 +10,15 @@ body {
     background: linear-gradient(45deg, #BBD2C5, #536976, #292E49);
     background-repeat: no-repeat;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
 .custom__container {
     position: relative;
-    text-align: center;
-    margin-right: 25px;
+    /* text-align: center; */
+    margin: 15px;
     width: 250px;
     height: 250px;
 }
